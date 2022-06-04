@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form </title>
+    <link rel="stylesheet" href="index.css" >
+</head>
+
+<body>
+    <h1 id="title">Contact Me!<h1>
+    <p id="description"> ~Fill the form below for Work or queries~ </p>
+
+    <form id="survey-form" action="https://formspree.io/f/mgeddgba" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="name" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <p>How can i help you </p>
+            <select id="dropdown" name="help" class="form-control" required>
+                <option disabled selected value>Select</option>
+                      <option value="VideoEditing">Video Editing</option>
+                             <option value="Website">Website</option>
+                     <option value="SnapchatFilter">Snapchat Filter</option>
+                <option value="Messege">other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Description/Messege</p>
+            <textarea id="messege" class="textareas" name="messege" placeholder="Enter here... "></textarea> 
+        </div>
+        <div class="form-group"> 
+            <button type="submit" id="submit" class="submitt" >Submit</button>
+        </div>
+    </form>
+    <div id="last">
+    <p1 >Made with &hearts; by Mehul</p1>
+    </div>
+</body>
+</html>

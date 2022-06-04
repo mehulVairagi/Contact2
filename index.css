@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),url(photos/bkg.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+#title{
+    color: aliceblue;
+    font-family: 'Homemade Apple', cursive;    text-align: center;
+    font-size: 30px;
+    margin-top: 4rem;
+}
+#description{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+}
+form{
+    background-color: rgba(52, 49, 49, 0.267);
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+}
+div{
+    display: block;
+}
+.form-group{
+    margin-left: 40px;
+    padding: 0.25rem;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fbfbfb;
+    font-size: 15px;
+    font-weight: 50;
+    margin-bottom: 0.5px;
+    margin-left: 2px;
+}
+#dropdown{
+    height: 28px;
+    width: auto;
+    font-size: 12px;
+}
+.form-control {
+    display: block;
+    width: 200px;
+    height: 10px;
+    margin-left: 5px;
+    padding: 0.375rem 0.75rem;
+    color: #030303;
+    border-radius: 5px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 50;
+    margin-left: 2px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 5px;
+    padding: 0px 2px 1px;
+}
+.textareas{
+    min-height: 120px;
+    width: 90%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+
+#submit{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    }
+#last{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 40% ;
+    margin-top: 10px;
+}
+
+
+
+
+/*input, button, select, textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }*/
